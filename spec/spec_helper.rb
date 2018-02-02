@@ -1,7 +1,7 @@
 ENV["SINATRA_ENV"] = "test"
 require_relative '../config/environment.rb'
 require 'rack/test'
-require 'Capybara/dsl'
+require 'capybara/dsl'
 
 RSpec.configure do |config|
   config.include Capybara::DSL
